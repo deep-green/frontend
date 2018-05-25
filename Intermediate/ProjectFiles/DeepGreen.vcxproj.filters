@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DeepGreen.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{987C32B6-BAE1-4009-97A1-5C03EAC57305}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DeepGreen.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DeepGreenEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{F953FC17-BD12-461A-94B1-950EF539DA1A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\DeepGreen">
+      <UniqueIdentifier>{53F0450C-1BFA-4A72-A1CB-4045B46C43E0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DeepGreen\DeepGreen.Build.cs">
+      <Filter>Source\DeepGreen</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DeepGreen\DeepGreen.cpp">
+      <Filter>Source\DeepGreen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DeepGreen\DeepGreen.h">
+      <Filter>Source\DeepGreen</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DeepGreen\DeepGreenCharacter.cpp">
+      <Filter>Source\DeepGreen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DeepGreen\DeepGreenCharacter.h">
+      <Filter>Source\DeepGreen</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DeepGreen\DeepGreenGameMode.cpp">
+      <Filter>Source\DeepGreen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DeepGreen\DeepGreenGameMode.h">
+      <Filter>Source\DeepGreen</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DeepGreen\DeepGreenPlayerController.cpp">
+      <Filter>Source\DeepGreen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DeepGreen\DeepGreenPlayerController.h">
+      <Filter>Source\DeepGreen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\DeepGreen\LoginWidget.cpp">
+      <Filter>Source\DeepGreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DeepGreen\NewGameWidget.cpp">
+      <Filter>Source\DeepGreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DeepGreen\LoadGameWidget.cpp">
+      <Filter>Source\DeepGreen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\DeepGreen\LoginWidget.h">
+      <Filter>Source\DeepGreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DeepGreen\NewGameWidget.h">
+      <Filter>Source\DeepGreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DeepGreen\LoadGameWidget.h">
+      <Filter>Source\DeepGreen</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
